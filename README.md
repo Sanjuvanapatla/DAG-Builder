@@ -8,8 +8,8 @@ A visual **Pipeline Editor** built using **React**, **React Flow**, and **Dagre*
 
 📽️ **Screen Recording & Screenshots**
 
-- ![Demo Screenshot 1](https://drive.google.com/file/d/1gKD5q1DYIE78TAEjr5XaI9beKuoKfywU/view?usp=sharing)
-- ![Demo Screenshot 2](https://drive.google.com/file/d/11RN89y2qe1qjgmonqjydFIUdI7BXSDT1/view?usp=sharing)
+- ![Demo Screenshot-1](https://drive.google.com/file/d/1gKD5q1DYIE78TAEjr5XaI9beKuoKfywU/view?usp=sharing)
+- ![Demo Screenshot-2](https://drive.google.com/file/d/11RN89y2qe1qjgmonqjydFIUdI7BXSDT1/view?usp=sharing)
 - 🎥 [Demo Recording](https://drive.google.com/file/d/1qMY7uWj_GhR0rMpKCiGKwdJZB348VnVV/view?usp=sharing )
 
 ---
