@@ -4,13 +4,13 @@ A visual **Pipeline Editor** built using **React**, **React Flow**, and **Dagre*
 
 ## 🌐 Demo
 
-🔗 [Live Demo on Vercel](https://your-vercel-deployment-link.vercel.app)
+🔗 [Live Demo on Vercel](https://dag-builder-t5ri.vercel.app/)
 
 📽️ **Screen Recording & Screenshots**
 
-- ![Demo Screenshot 1](screenshots/screenshot1.png)
-- ![Demo Screenshot 2](screenshots/screenshot2.png)
-- 🎥 [Demo Recording](https://link-to-demo-recording)
+- ![Demo Screenshot 1](https://drive.google.com/file/d/1gKD5q1DYIE78TAEjr5XaI9beKuoKfywU/view?usp=sharing)
+- ![Demo Screenshot 2](https://drive.google.com/file/d/11RN89y2qe1qjgmonqjydFIUdI7BXSDT1/view?usp=sharing)
+- 🎥 [Demo Recording](https://drive.google.com/file/d/1qMY7uWj_GhR0rMpKCiGKwdJZB348VnVV/view?usp=sharing )
 
 ---
 
@@ -30,10 +30,10 @@ A visual **Pipeline Editor** built using **React**, **React Flow**, and **Dagre*
 ## 🚀 Setup Instructions
 
 ```bash
-git clone https://github.com/your-username/dag-builder.git
-cd dag-builder
+git clone https://github.com/Sanjuvanapatla/DAG-Builder.git 
+cd pipline-editor
 npm install
-npm start
+npm run dev
 
 📦 Libraries & Tools Used
 Library	Purpose
@@ -73,25 +73,28 @@ Copy code
 src/
 │
 ├── components/
-│   ├── ControlPanel.jsx
-│   ├── NodeComponent.jsx
-│   ├── ValidationStatus.jsx
-│__ utils/
-|    |-AutoLayoutUtils.jsx
-├── FlowEditor.jsx
-├── App.jsx
-└── index.js
+│   ├── ControlPanel.jsx          # UI controls: Add Node, Auto Layout, Theme toggle, etc.
+│   ├── NodeComponent.jsx         # Custom node UI with React Flow Handles
+│   ├── ValidationStatus.jsx      # DAG validation status and JSON preview panel
+│
+├── utils/
+│   └── AutoLayoutUtils.jsx       # dagre-based layout logic for arranging DAG nodes
+│
+├── FlowEditor.jsx                # Main DAG editor component (React Flow logic, state)
+├── App.jsx                       # Root component that wraps FlowEditor (if needed)
+└── index.js                      # ReactDOM.render and entry point
+
 
 ✨ Future Enhancements
-Save/Load Graph as JSON
+-Save/Load Graph as JSON
 
-Drag-and-drop node creation
+-Drag-and-drop node creation
 
-Multiple node types
+-Multiple node types
 
-Contextual right-click menu
+-Contextual right-click menu
 
-Zoom-to-selection feature
+-Zoom-to-selection feature
 
 📜 License
 MIT License – Feel free to use and modify.
